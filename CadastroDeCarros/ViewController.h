@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate, UIActionSheetDelegate> {
+    NSString *filePath;
+    NSMutableArray *dados;
+}
 
+@property (strong, nonatomic) IBOutlet UITextField *marca;
+@property (nonatomic, strong) IBOutlet UITextField *modelo;
+@property (strong, nonatomic) IBOutlet UITextField *ano;
+@property (nonatomic, strong) IBOutlet UITextField *valor;
+
+-(IBAction)guardar:(id)sender;
 
 @end
 

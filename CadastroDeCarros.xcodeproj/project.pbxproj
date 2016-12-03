@@ -14,6 +14,7 @@
 		03048C781DF2F4EA006D9664 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03048C771DF2F4EA006D9664 /* Images.xcassets */; };
 		03048C7B1DF2F4EA006D9664 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03048C791DF2F4EA006D9664 /* LaunchScreen.xib */; };
 		03048C871DF2F4EA006D9664 /* CadastroDeCarrosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03048C861DF2F4EA006D9664 /* CadastroDeCarrosTests.m */; };
+		03048C941DF30B46006D9664 /* ListagemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03048C931DF30B46006D9664 /* ListagemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		03048C801DF2F4EA006D9664 /* CadastroDeCarrosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CadastroDeCarrosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03048C851DF2F4EA006D9664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03048C861DF2F4EA006D9664 /* CadastroDeCarrosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CadastroDeCarrosTests.m; sourceTree = "<group>"; };
+		03048C921DF30B46006D9664 /* ListagemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListagemViewController.h; sourceTree = "<group>"; };
+		03048C931DF30B46006D9664 /* ListagemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListagemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				03048C771DF2F4EA006D9664 /* Images.xcassets */,
 				03048C791DF2F4EA006D9664 /* LaunchScreen.xib */,
 				03048C6A1DF2F4EA006D9664 /* Supporting Files */,
+				03048C921DF30B46006D9664 /* ListagemViewController.h */,
+				03048C931DF30B46006D9664 /* ListagemViewController.m */,
 			);
 			path = CadastroDeCarros;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03048C941DF30B46006D9664 /* ListagemViewController.m in Sources */,
 				03048C731DF2F4EA006D9664 /* ViewController.m in Sources */,
 				03048C701DF2F4EA006D9664 /* AppDelegate.m in Sources */,
 				03048C6D1DF2F4EA006D9664 /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				03048C8C1DF2F4EA006D9664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03048C8D1DF2F4EA006D9664 /* Build configuration list for PBXNativeTarget "CadastroDeCarrosTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				03048C8F1DF2F4EA006D9664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
